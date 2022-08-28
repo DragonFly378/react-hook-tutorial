@@ -4,14 +4,13 @@ import "./App.css";
 // import HookCounterThree from "./components/HookCounterThree";
 // import HookCounterFour from "./components/HookCounterFour";
 import HookCounterOne from "./components/HookCounterOne";
+import HookMouse from "./components/HookMouse";
 
 function App() {
   return (
     <div className="App">
-      <HookCounterOne />
-      {/* <HookCounterTwo /> */}
-      {/* <HookCounterThree /> */}
-      {/* <HookCounterFour /> */}
+      {/* <HookCounterOne /> */}
+      <HookMouse />
     </div>
   );
 }
