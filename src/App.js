@@ -5,12 +5,14 @@ import "./App.css";
 // import HookCounterFour from "./components/HookCounterFour";
 import HookCounterOne from "./components/HookCounterOne";
 import HookMouse from "./components/HookMouse";
+import MouseContainer from "./components/MouseContainer";
 
 function App() {
   return (
     <div className="App">
       {/* <HookCounterOne /> */}
-      <HookMouse />
+      {/* <HookMouse /> */}
+      <MouseContainer />
     </div>
   );
 }
